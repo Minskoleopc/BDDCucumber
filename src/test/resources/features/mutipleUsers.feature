@@ -3,7 +3,7 @@ Feature: Multiple Logins on Saucedemo
   Scenario Outline: Login with Different User Credentials
     Given the user is on the Saucedemo login page
     When the user enters "<username>" and "<password>"
-    And clicks on the Login button
+    And the clicks on the Login button
     Then the user should be "<login_status>"
 
     Examples:
